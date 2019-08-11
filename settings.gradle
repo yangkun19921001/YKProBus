@@ -1,0 +1,1 @@
+include ':app', ':module_a',':component_eventbus'
