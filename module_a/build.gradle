@@ -34,5 +34,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(path: ':component_eventbus')
+//    implementation project(path: ':component_eventbus')
+    implementation 'com.github.yangkun19921001:YKProBus:1.0.1'
 }
